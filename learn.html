@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+    <title></title>
+    <link rel="stylesheet" href="slideweb/dist/reveal.css" />
+    <link rel="stylesheet" href="slideweb/css/myself.css" id="theme" />
+    <link rel="stylesheet" href="slideweb/plugin/highlight/zenburn.css" />
+	<link rel="stylesheet" href="slideweb/css/layout.css" />
+	<link rel="stylesheet" href="slideweb/plugin/customcontrols/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style_nav2.css">
+    <link rel="stylesheet" href="css/style_b.css">
+    <link rel="icon" href="https://i.imgtg.com/2022/11/19/tfy0l.png" sizes="16x16">
+
+
+	<script type="text/javascript">
+		var forgetPop = true;
+		function onPopState(event) {
+			if(forgetPop){
+				forgetPop = false;
+			} else {
+				parent.postMessage(event.target.location.href, "app://obsidian.md");
+			}
+        }
+		window.onpopstate = onPopState;
+		window.onmessage = event => {
+			if(event.data == "reload"){
+				window.document.location.reload();
+			}
+			forgetPop = true;
+		}
+
+		function fitElements(){
+			const itemsToFit = document.getElementsByClassName('fitText');
+			for (const item in itemsToFit) {
+				if (Object.hasOwnProperty.call(itemsToFit, item)) {
+					var element = itemsToFit[item];
+					fitElement(element,1, 1000);
+					element.classList.remove('fitText');
+				}
+			}
+		}
+
+		function fitElement(element, start, end){
+
+			let size = (end + start) / 2;
+			element.style.fontSize = `${size}px`;
+
+			if(Math.abs(start - end) < 1){
+				while(element.scrollHeight > element.offsetHeight){
+					size--;
+					element.style.fontSize = `${size}px`;
+				}
+				return;
+			}
+
+			if(element.scrollHeight > element.offsetHeight){
+				fitElement(element, start, size);
+			} else {
+				fitElement(element, size, end);
+			}		
+		}
+
+
+		document.onreadystatechange = () => {
+			fitElements();
+			if (document.readyState === 'complete') {
+				if (window.location.href.indexOf("?export") != -1){
+					parent.postMessage(event.target.location.href, "app://obsidian.md");
+				}
+				if (window.location.href.indexOf("print-pdf") != -1){
+					let stateCheck = setInterval(() => {
+						clearInterval(stateCheck);
+						window.print();
+					}, 250);
+				}
+			}
+	};
+
+
+        </script>
+  </head>
+  <body>
+    <header class="header">
+
+        <a href="#" class="logo"><span>Frank</span>Lee's Blog</a>
+    
+        <nav class="navbar">
+            <a href="index.html">主页</a>
+            <a href="life.html">生活</a>
+            <a href="https://flowus.cn/sharing/share/14d972c9-ded3-45de-9869-4718b6220a43">学习</a>
+            <a href="blank.html">建设中</a>
+            <a href="../index.html">导航页</a>
+        </nav>
+    
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+        </div>
+    
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    
+    </header>
+    <div class="reveal">
+      <div class="slides"><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+### 计算机学习记录
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" --><font color="#ffff00">12.23</font>
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->开始从新整理操作系统笔记，通过整理笔记复习到了好多知识
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" --><font color="#ff0">12.15</font>
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->发现fast stone capture 录屏很好用，同学好像都不知道一样
+		- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->视频可以录得很小，节省空间
+		- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->可以电脑长截图
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" --><font color="#ffff00">12.08</font>
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->发现了新的记笔记软件，将以前的计算机笔记打算迁移到obsidian
+	- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->因为之前从flowus记笔记是网络笔记，担心有一天跑路
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" --><font color="#ffff00">12.02 - 12.06</font>
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->为了快速了解计算机科学看了[CRASH COURSE](https://www.bilibili.com/video/BV1EW411u7th/?p=1&vd_source=0a60bc133053453dece32b7c7e830e8c)
+	- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->很有用推荐，这是别人写的笔记可以参考[石墨文档](https://shimo.im/docs/vkCKkj3YxGtygrVg/read)
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" --><font color="#ffff00">11.19-12.01</font>
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->数据结构错题知识点整理见网址：
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" --><font color="#ffff00">11.18</font>
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->打算制定在1月份前将计算机数据结构和操作系统再看一遍，做做王道书后的习题，整理整理
+	- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->当然还需要通过月底的5门土木考试课，可能很辛苦
+	- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->之后就打算花点时间复习数学和英语，主要通过知能行刷数学，小说和单词刷英语
+	- &shy;<!-- .element: class="fragment" data-fragment-index="5" -->将复习由基础逐渐向提高过度
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" --><font color="#ffff00">11.17</font>
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->做了一个秘密基地，记录一些有意思但是又好像网站用不到的前端小部件，比如3D模拟烟花，照片滚动放映，3D轮播图等等
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" --><font color="#ffff00">11.09</font>
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->今天给聆明小站准备了一个暗夜背景，并且把背景通过linear-gradient(rgb(213,226,226),rgb(190,224,226))改成了渐变色，代替了以前的图片，网站加载又快了一些
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" --><font color="#ffff00">11.08</font>
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->今天改进了一下播放器，增加了随机播放功能，虽然抄了很多代码，但是也认真看了一遍以后应该可以学会
+</div></script></section><section  data-markdown><script type="text/template"><!-- .slide: class="drop" -->
+<div class="" style="position: absolute; left: 0px; top: 0px; height: 700px; width: 960px; min-height: 700px; display: flex; flex-direction: column; align-items: center; justify-content: center" absolute="true">
+
+- &shy;<!-- .element: class="fragment" data-fragment-index="1" --><font color="#ffff00">11.07 </font>
+	- &shy;<!-- .element: class="fragment" data-fragment-index="2" -->制作了网站logo
+	- &shy;<!-- .element: class="fragment" data-fragment-index="3" -->想要将B站视频移至网站，但是由于移动端和电脑端对于连续集数视频的获取是不同的所以浪费了一些时间
+		- &shy;<!-- .element: class="fragment" data-fragment-index="4" -->移动端是通过cid号获取
+		- &shy;<!-- .element: class="fragment" data-fragment-index="5" -->电脑端只能通过page号
+</div></script></section></div>
+    </div>
+
+
+    <script src="slideweb/dist/reveal.js"></script>
+
+    <script src="slideweb/plugin/markdown/markdown.js"></script>
+    <script src="slideweb/plugin/highlight/highlight.js"></script>
+    <script src="slideweb/plugin/zoom/zoom.js"></script>
+    <script src="slideweb/plugin/notes/notes.js"></script>
+    <script src="slideweb/plugin/math/math.js"></script>
+	<script src="slideweb/plugin/mermaid/mermaid.js"></script>
+	<script src="slideweb/plugin/chart/chart.min.js"></script>
+	<script src="slideweb/plugin/chart/plugin.js"></script>
+	<script src="slideweb/plugin/customcontrols/plugin.js"></script>
+
+    <script>
+      function extend() {
+        var target = {};
+        for (var i = 0; i < arguments.length; i++) {
+          var source = arguments[i];
+          for (var key in source) {
+            if (source.hasOwnProperty(key)) {
+              target[key] = source[key];
+            }
+          }
+        }
+        return target;
+      }
+
+	  function isLight(color) {
+		let hex = color.replace('#', '');
+
+		// convert #fff => #ffffff
+		if(hex.length == 3){
+			hex = `${hex[0]}${hex[0]}${hex[1]}${hex[1]}${hex[2]}${hex[2]}`;
+		}
+
+		const c_r = parseInt(hex.substr(0, 2), 16);
+		const c_g = parseInt(hex.substr(2, 2), 16);
+		const c_b = parseInt(hex.substr(4, 2), 16);
+		const brightness = ((c_r * 299) + (c_g * 587) + (c_b * 114)) / 1000;
+		return brightness > 155;
+	}
+
+	var bgColor = getComputedStyle(document.documentElement).getPropertyValue('--r-background-color').trim();
+	var isLight = isLight(bgColor);
+
+	if(isLight){
+		document.body.classList.add('has-light-background');
+	} else {
+		document.body.classList.add('has-dark-background');
+	}
+
+      // default options to init reveal.js
+      var defaultOptions = {
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        transition: 'default', // none/fade/slide/convex/concave/zoom
+        plugins: [
+          RevealMarkdown,
+          RevealHighlight,
+          RevealZoom,
+          RevealNotes,
+          RevealMath.MathJax3,
+		  RevealMermaid,
+		  RevealChart,
+
+        ],
+
+
+    	allottedTime: 120 * 1000,
+
+		mathjax3: {
+			mathjax: 'slideweb/plugin/math/mathjax/tex-mml-chtml.js',
+		},
+		markdown: {
+		  gfm: true,
+		  mangle: true,
+		  pedantic: false,
+		  smartLists: false,
+		  smartypants: false,
+		},
+
+		mermaid: {
+			theme: isLight ? 'default' : 'dark',
+		},
+
+      };
+
+      // options from URL query string
+      var queryOptions = Reveal().getQueryHash() || {};
+
+      var options = extend(defaultOptions, {"width":960,"height":700,"margin":0.04,"controls":true,"progress":true,"slideNumber":false,"transition":"slide","transitionSpeed":"normal"}, queryOptions);
+    </script>
+    <script src="js/script_all.js"></script>
+    <script>
+      Reveal.initialize(options);
+    </script>
+  </body>
