@@ -76,7 +76,7 @@ let allMusic =[
   artist:"Trent Dabbs",
   },
   {
-  src:"http://music.163.com/song/media/outer/url?id=521416693",
+  src:"https://freetyst.nf.migu.cn/public%2Fproduct9th%2Fproduct41%2F2020%2F07%2F3116%2F2017%E5%B9%B411%E6%9C%8827%E6%97%A514%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5SONY316%E9%A6%96%2F%E5%85%A8%E6%9B%B2%E8%AF%95%E5%90%AC%2FMp3_64_22_16%2F6005970SLFU163950.mp3?Key=b319ac8e3d12db8d&Tim=1672183214336&channelid=01&msisdn=92be56d972de4d8b977943a7090f1779",
   name : "So Far Away",
   artist:"Martin Garrix、David Guetta",
   },
@@ -114,6 +114,11 @@ let allMusic =[
   src:"http://music.163.com/song/media/outer/url?id=412785355",
   name : "神の怒り",
   artist:"池頼広", 
+  },
+  {
+  src:"http://music.163.com/song/media/outer/url?id=2009658834.mp3",
+  name : "骑在银龙的背上",
+  artist:"咻咻满",
   },
   {  
     src : "https://freetyst.nf.migu.cn/public%2Fproduct5th%2Fproduct35%2F2019%2F09%2F2521%2F2018%E5%B9%B406%E6%9C%8830%E6%97%A521%E7%82%B900%E5%88%86%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%891%E9%A6%96%2F%E5%85%A8%E6%9B%B2%E8%AF%95%E5%90%AC%2FMp3_64_22_16%2F63273402355.mp3?Key=d6c1152c2db27951&Tim=1669971541230&channelid=01&msisdn=06a8ff43d52e4251b8f91c845c03d4b3",
