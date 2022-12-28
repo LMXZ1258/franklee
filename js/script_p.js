@@ -81,6 +81,11 @@ let allMusic =[
   artist:"Martin Garrix、David Guetta",
   },
   {
+    src:"http://music.163.com/song/media/outer/url?id=3026413",
+    name : "The touch",
+    artist:"Maria Arredondo",
+  },
+  {
   src:"http://music.163.com/song/media/outer/url?id=408332519",
   name : "The Calling",
   artist:"TheFatRat、Laura Brehm", 
@@ -129,6 +134,11 @@ let allMusic =[
   src:"http://music.163.com/song/media/outer/url?id=28188427", 
   name : "棠梨煎雪",
   artist:"银临", 
+  },
+  {
+    src:"http://ws.stream.qqmusic.qq.com/C400004TbR0e1Wbk7S.m4a?guid=928513014&vkey=325032CE4521AD60A0B745ED81583079FB9349C95612FD20011882BA8515F7111BA9C87DEFC499CB4C8677D63325FECCA91AABD8F37FAEFB&uin=&fromtag=120032", 
+    name : "时结",
+    artist:"周深", 
   },
   {
   src:"http://music.163.com/song/media/outer/url?id=34341360",
