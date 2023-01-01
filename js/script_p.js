@@ -5,11 +5,6 @@ let allMusic =[
     name : "Traveling Light",
     artist:"Joel Hanson",
   },
-  { 
-    src : "http://music.163.com/song/media/outer/url?id=1984892291",
-    name : "Celestial",
-    artist:"Ed Sheeran",
-  },
   {  
     src : "http://music.163.com/song/media/outer/url?id=28987615",
     name : "Radio Mix 6-2",
@@ -35,6 +30,11 @@ let allMusic =[
   name : "Fight Song",
   artist:"Rachel Platten",
   },
+  {
+    src:"http://music.163.com/song/media/outer/url?id=33035577",
+    name : "Forgettable",
+    artist:"Project 46,Olivia",
+    },
   {
   src:"http://music.163.com/song/media/outer/url?id=440353010",
   name : "Lov3 Ngẫu Hứng",
@@ -71,6 +71,11 @@ let allMusic =[
   artist:"AURORA",
   },
   {
+    src:"http://music.163.com/song/media/outer/url?id=1466544976",
+    name : "Ross And Rachel",
+    artist:"Jake Miller",
+    },
+  {
   src:"http://music.163.com/song/media/outer/url?id=1296302555",
   name : "Set for Life",
   artist:"Trent Dabbs",
@@ -81,9 +86,19 @@ let allMusic =[
   artist:"Martin Garrix、David Guetta",
   },
   {
+    src:"http://music.163.com/song/media/outer/url?id=28009788",
+    name : "Satisfied",
+    artist:"Holly Starr",
+    },
+  {
     src:"http://music.163.com/song/media/outer/url?id=3026413",
     name : "The touch",
     artist:"Maria Arredondo",
+  },
+  {
+    src:"http://music.163.com/song/media/outer/url?id=22463299",
+    name : "That's Why You Go Away",
+    artist:"Michael Learns To Rock",
   },
   {
   src:"http://music.163.com/song/media/outer/url?id=408332519",
