@@ -166,7 +166,7 @@ let allMusic =[
     artist:"银临", 
   },
   {
-    src:"https://lq-sycdn.kuwo.cn/6e2f770715f8ae244e1fd46e338636ed/63c73715/resource/n2/86/6/3146880681", 
+    src:"http://ws.stream.qqmusic.qq.com/C400004TbR0e1Wbk7S.m4a?guid=795833580&vkey=3F11CA9ED149BE406102E2837401D700723E6D1BE095D81BA840454D2E38082B5F17047D37546802EC2564E32661CD0C34B102F3CFC84C92&uin=&fromtag=120032", 
     name : "时结",
     artist:"周深", 
   },
