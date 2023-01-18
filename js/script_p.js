@@ -76,12 +76,12 @@ let allMusic =[
     artist:"Jake Miller",
     },
   {
-  src:"http://music.163.com/song/media/outer/url?id=1296302555",
+  src:"http://music.163.com/song/media/outer/url?id=26511658",
   name : "Ship In The Sand",
   artist:"Marble Sounds",
   },
   {
-    src:"http://music.163.com/song/media/outer/url?id=26511658",
+    src:"http://music.163.com/song/media/outer/url?id=1296302555",
     name : "Set for Life",
     artist:"Trent Dabbs",
     },
@@ -166,7 +166,7 @@ let allMusic =[
     artist:"银临", 
   },
   {
-    src:"http://ws.stream.qqmusic.qq.com/C400004TbR0e1Wbk7S.m4a?guid=928513014&vkey=325032CE4521AD60A0B745ED81583079FB9349C95612FD20011882BA8515F7111BA9C87DEFC499CB4C8677D63325FECCA91AABD8F37FAEFB&uin=&fromtag=120032", 
+    src:"https://lq-sycdn.kuwo.cn/6e2f770715f8ae244e1fd46e338636ed/63c73715/resource/n2/86/6/3146880681", 
     name : "时结",
     artist:"周深", 
   },
