@@ -1,6 +1,6 @@
 @font-face {
     font-family: "shouxie";
-    src: url(YeZiGongChangXiaoZhongShanXingKai-2.ttf);
+    src: url(../slideweb/fonts/YeZiGongChangXiaoZhongShanXingKai-2.ttf);
 }
 body{
     background-color: var(--bg);
@@ -11,7 +11,7 @@ body{
     box-sizing: border-box;
     outline: none; border:none;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "shouxie";
     font-weight: lighter;
 
 }
