@@ -1,4 +1,7 @@
-@import "./fonts/source-sans-pro/source-sans-pro.css";
+@font-face{
+  font-family: "lmxz";
+  src: url("../fonts/Muyao-Softbrush-2.ttf")
+}
 .reveal .has-light-background,
 .reveal .has-light-background h1,
 .reveal .has-light-background h2,
@@ -10,29 +13,23 @@
 }
 :root {
   --r-background-color: #191919;
-  --r-main-font:
-    Source Sans Pro,
-    Helvetica,
-    sans-serif;
-  --r-main-font-size: 42px;
+  --r-main-font:"lmxz";
+  --r-main-font-size: 36px;
   --r-main-color: #fff;
   --r-block-margin: 20px;
   --r-heading-margin: 0 0 20px 0;
-  --r-heading-font:
-    Source Sans Pro,
-    Helvetica,
-    sans-serif;
+  --r-heading-font:"lmxz";
   --r-heading-color: #fff;
   --r-heading-line-height: 1.2;
   --r-heading-letter-spacing: normal;
   --r-heading-text-transform: uppercase;
   --r-heading-text-shadow: none;
-  --r-heading1-font-weight: 600;
-  --r-heading2-font-weight: 600;
-  --r-heading3-font-weight: 600;
-  --r-heading4-font-weight: 600;
-  --r-heading5-font-weight: 600;
-  --r-heading6-font-weight: 600;
+  --r-heading1-font-weight: 400;
+  --r-heading2-font-weight: 400;
+  --r-heading3-font-weight: 400;
+  --r-heading4-font-weight: 400;
+  --r-heading5-font-weight: 400;
+  --r-heading6-font-weight: 400;
   --r-heading1-text-shadow: none;
   --r-heading1-color:red;
   --r-heading2-color:coral;
