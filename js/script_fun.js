@@ -1,6 +1,6 @@
 let images = document.querySelector('.images')
 let image = document.querySelector('.image')
-let n = 11;
+let n = 12;
 for (let i = n-1; i >= 1; i--) {
     var lis = document.createElement('div')
     lis.innerHTML = `<img class="img" src='images/fun/img (` + i + `).png'>`
