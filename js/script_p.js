@@ -21,11 +21,6 @@ let allMusic =[
   artist:"Taylor Swift",
   },
   {
-  src:"http://music.163.com/song/media/outer/url?id=29027453",
-  name : "crossing field",
-  artist:"LiSA",
-  },
-  {
   src:"http://music.163.com/song/media/outer/url?id=29803675",
   name : "Fight Song",
   artist:"Rachel Platten",
@@ -35,11 +30,6 @@ let allMusic =[
     name : "Forgettable",
     artist:"Project 46,Olivia",
     },
-  {
-  src:"http://music.163.com/song/media/outer/url?id=440353010",
-  name : "Lov3 Ngẫu Hứng",
-  artist:"Hoaprox",
-  },
   {  
     src : "http://music.163.com/song/media/outer/url?id=25901050",
     name : "Liebesleid",
@@ -91,11 +81,6 @@ let allMusic =[
     artist:"Martin Garrix、David Guetta",
   },
   {
-    src:"http://music.163.com/song/media/outer/url?id=28133173",
-    name : "Summer Girl",
-    artist:"Fleurie",
-  },
-  {
     src:"http://music.163.com/song/media/outer/url?id=28009788",
     name : "Satisfied",
     artist:"Holly Starr",
@@ -116,8 +101,8 @@ let allMusic =[
     artist:"TheFatRat、Laura Brehm", 
   },
   {
-    src:"http://music.163.com/song/media/outer/url?id=31370203",
-    name : "Unique",
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/Lenka%20-%20Blue%20Skies.flac?sign=U8T6Ahpf8avvGFQklDyTh0eKyf0suzRyau2SOs9XjK8=:0",
+    name : "blue skies",
     artist:"Lenka", 
   },
   {
@@ -131,11 +116,6 @@ let allMusic =[
     artist:"Aimer",
   },
   {
-    src:"http://music.163.com/song/media/outer/url?id=30780132",
-    name : "ドリドリ",
-    artist:"中川翔子",
-  },
-  {
     src:"http://music.163.com/song/media/outer/url?id=22782025",
     name : "美しきもの",
     artist:"Sound Horizon",
@@ -144,11 +124,6 @@ let allMusic =[
     src:"http://music.163.com/song/media/outer/url?id=1857952675",
     name : "僕が死のうと思ったのは",
     artist:"咻咻满",
-  },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=412785355",
-    name : "神の怒り",
-    artist:"池頼広", 
   },
   {
     src:"http://music.163.com/song/media/outer/url?id=2009658834.mp3",
@@ -171,11 +146,6 @@ let allMusic =[
     artist:"周深", 
   },
   {
-    src:"http://music.163.com/song/media/outer/url?id=34341360",
-    name : "梦中的婚礼",
-    artist:"Richard Clayderman", 
-  },
-  {
     src:"http://music.163.com/song/media/outer/url?id=1338695683",
     name : "起风了",
     artist:"吴青峰",
@@ -184,11 +154,6 @@ let allMusic =[
     src:"http://music.163.com/song/media/outer/url?id=22707003", 
     name : "天空中闪烁着光",
     artist:"铃汐", 
-  },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=516657051", 
-    name : "像风一样",
-    artist:"薛之谦", 
   },
   {
     src:"http://music.163.com/song/media/outer/url?id=412911436", 
