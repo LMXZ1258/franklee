@@ -1,9 +1,50 @@
 
 let allMusic =[
-  {  
-    src : "http://music.163.com/song/media/outer/url?id=1491585",
-    name : "Traveling Light",
-    artist:"Joel Hanson",
+  {
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/Aimer%20-%20%E3%82%AB%E3%82%BF%E3%82%AA%E3%83%A2%E3%82%A4%20(%E5%8D%95%E7%9B%B8%E6%80%9D).flac?sign=9mE7pVZf2HrGRHcc7GFg61ffG9RIXuaZZNqCAr9I-XU=:0",
+    name : "カタオモイ",
+    artist:"Aimer",
+  },
+  {
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/%E4%B8%89%E6%B5%A6%E9%80%8F%E5%AD%90%E3%80%81RADWIMPS%20-%20%E3%82%B0%E3%83%A9%E3%83%B3%E3%83%89%E3%82%A8%E3%82%B9%E3%82%B1%E3%83%BC%E3%83%97%20(%E9%80%83%E7%A6%BB%E5%9C%B0%E9%9D%A2)%20(Movie%20edit).flac?sign=gU0QMYlXPcBZ4LNy-jr8g3NPscwxleqsJsCL-ZyyMmE=:0",
+    name : "逃离地面",
+    artist:"三浦透子、RADWIMPS",
+  },
+  {
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/Aimer%20-%20%E3%82%B3%E3%82%A4%E3%83%AF%E3%82%BA%E3%83%A9%E3%82%A4%20(%E7%9B%B8%E6%80%9D%E7%97%85).mp3?sign=VBN9j2oGv7j6xhI-DLtRcBqoTiP8834J9Zg-kpsOlk8=:0",
+    name : "コイワズライ",
+    artist:"Aimer",
+  },
+  {
+    src:"http://music.163.com/song/media/outer/url?id=1466544976",
+    name : "Ross And Rachel",
+    artist:"Jake Miller",
+  },
+  
+  {
+      src:"http://music.163.com/song/media/outer/url?id=1817629883",
+      name : "Runaway",
+      artist:"AURORA",
+  },
+    {
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/Lenka%20-%20Blue%20Skies.flac?sign=U8T6Ahpf8avvGFQklDyTh0eKyf0suzRyau2SOs9XjK8=:0",
+    name : "blue skies",
+    artist:"Lenka", 
+  },
+  {
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/Aimer%20-%20%E7%B3%B8.flac?sign=g1BxE_0XMLXXgSUee7xga3FiZZPdc3K2flchF-v_IU8=:0",
+    name : "糸",
+    artist:"Aimer",
+  },
+  {
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/RADWIMPS%E3%80%81%E5%8D%81%E6%98%8E%20-%20%E3%81%99%E3%81%9A%E3%82%81%20feat.%E5%8D%81%E6%98%8E.flac?sign=dSV7nLsY8IY7QbqGW0tPn8mG__iAtcHH3KQpkgR4NRI=:0",
+    name : "十明",
+    artist:"十明、RADWIMPS",
+  },
+  {
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/%E6%B0%B4%E7%80%AC%E3%81%84%E3%81%AE%E3%82%8A%20-%20Wishing.flac?sign=MCKEhq19GCE-RXBKUac66PGxNnTBYgpMLww2elSZzbI=:0",
+    name : "Wishing",
+    artist:"水瀬いのり",
   },
   {  
     src : "http://music.163.com/song/media/outer/url?id=28987615",
@@ -20,121 +61,102 @@ let allMusic =[
   name : "Love Story",
   artist:"Taylor Swift",
   },
-  {
-  src:"http://music.163.com/song/media/outer/url?id=29803675",
-  name : "Fight Song",
-  artist:"Rachel Platten",
+  {  
+    src : "https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/Ed%20Sheeran%20-%20Celestial.flac?sign=Mdn7JsQ484RA8XBvNGLbzRS5fQoy8XENcMcFcqGojVg=:0",
+    name : "Celestial",
+    artist:"Ed Sheeran",
   },
   {
-    src:"http://music.163.com/song/media/outer/url?id=33035577",
-    name : "Forgettable",
-    artist:"Project 46,Olivia",
-    },
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/%E4%B8%89%E6%B5%A6%E9%80%8F%E5%AD%90%20-%20%E3%81%8A%E3%81%A1%E3%81%A4%E3%81%91.flac?sign=6bw2MeaeLWpDWm8gSS7kEn6c2rjxEb140HXtIFWJdTc=:0",
+    name : "おちつけ",
+    artist:"三浦透子",
+  },
+  {  
+    src : "https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/G.E.M.%20%E9%82%93%E7%B4%AB%E6%A3%8B%20-%20%E6%A1%83%E8%8A%B1%E8%AF%BA.flac?sign=bu3KZqNSv65kFddBDxsBtyL8rLQffywr7gpQbxx1N_Y=:0",
+    name : "桃花诺",
+    artist:"邓紫棋",
+  },
+  {
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/Taylor%20Swift%20-%20All%20Of%20The%20Girls%20You%20Loved%20Before.mp3?sign=A1lxjvgjpX5jOSVhgl1fgnTSIgoUBsnmH5t7Yax-dvE=:0",
+    name : "AllOfTheGirlYouLovedBefore",
+    artist:"Taylor Swift",
+  },
   {  
     src : "http://music.163.com/song/media/outer/url?id=25901050",
     name : "Liebesleid",
     artist:"何红英,姚珏",
   },
   {
-  src:"http://music.163.com/song/media/outer/url?id=2414984",
-  name : "Near or Far",
-  artist:"Carissa Rae",
-  },
-  {
-  src:"http://music.163.com/song/media/outer/url?id=1942594143",
-  name : "Peter Pan Was Right",
-  artist:"Anson Seabra",
-  },
-  {
-  src:"http://music.163.com/song/media/outer/url?id=28718301",
-  name : "Promise for Christmas",
-  artist:"Angelika Vee", 
-  },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=812400",
-    name : "PLANET",
-    artist:"ラムジ", 
-  },
-  {
-  src:"http://music.163.com/song/media/outer/url?id=1817629883",
-  name : "Runaway",
-  artist:"AURORA",
-  },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=1466544976",
-    name : "Ross And Rachel",
-    artist:"Jake Miller",
-    },
-  {
-  src:"http://music.163.com/song/media/outer/url?id=26511658",
-  name : "Ship In The Sand",
-  artist:"Marble Sounds",
-  },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=1296302555",
-    name : "Set for Life",
-    artist:"Trent Dabbs",
-    },
-  {
     src:"https://freetyst.nf.migu.cn/public%2Fproduct9th%2Fproduct41%2F2020%2F07%2F3116%2F2017%E5%B9%B411%E6%9C%8827%E6%97%A514%E7%82%B936%E5%88%86%E7%B4%A7%E6%80%A5%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5SONY316%E9%A6%96%2F%E5%85%A8%E6%9B%B2%E8%AF%95%E5%90%AC%2FMp3_64_22_16%2F6005970SLFU163950.mp3?Key=b319ac8e3d12db8d&Tim=1672183214336&channelid=01&msisdn=92be56d972de4d8b977943a7090f1779",
     name : "So Far Away",
     artist:"Martin Garrix、David Guetta",
   },
   {
-    src:"http://music.163.com/song/media/outer/url?id=28009788",
-    name : "Satisfied",
-    artist:"Holly Starr",
-    },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=3026413",
-    name : "the touch",
-    artist:"Maria Arredondo",
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/Ennio%20Morricone%20-%20Playing%20Love%20(Piano%20Version).flac?sign=ekSNHGgHD4bSkUq6D8p6-erFng30K6FyNoBLPUywjBQ=:0",
+    name : "Playing Love",
+    artist:"Ennio Morricone",
   },
   {
-    src:"http://music.163.com/song/media/outer/url?id=22463299",
-    name : "That's Why You Go Away",
-    artist:"Michael Learns To Rock",
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/%E9%AB%98%E6%A1%A5%E6%9D%8E%E4%BE%9D%20-%20Stay%20Alive.flac?sign=LWIU2EW6lyMe76sknDSmfjV1oOxekJSOOzuEB3sibrQ=:0",
+    name : "Stay Alive",
+    artist:"高桥李依",
+  },
+  {  
+    src : "http://music.163.com/song/media/outer/url?id=28987615",
+    name : "Radio Mix 6-2",
+    artist:"Marie Miller",
   },
   {
-    src:"http://music.163.com/song/media/outer/url?id=408332519",
-    name : "The Calling",
-    artist:"TheFatRat、Laura Brehm", 
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/Marble%20Sounds%20-%20Leave%20A%20Light%20On.mp3?sign=xP-5HaRcNGgvfHseazdEs9tNokYhrcyuUTrLuUZkCFU=:0",
+    name : "Leave A Light On",
+    artist:"Marble Sounds",
+  },
+  {  
+    src : "https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/%E5%9D%82%E6%9C%AC%E9%BE%99%E4%B8%80%20-%20Aqua.flac?sign=wHgmqMctOeKZh4NrC0b-kjuDzLPe1wNpcXWdFH4i84g=:0",
+    name : "月光",
+    artist:"胡彦斌",
   },
   {
-    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/Lenka%20-%20Blue%20Skies.flac?sign=U8T6Ahpf8avvGFQklDyTh0eKyf0suzRyau2SOs9XjK8=:0",
-    name : "blue skies",
-    artist:"Lenka", 
-  },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=2001320",
-    name : "Valder Fields",
-    artist:"Tamas Wells", 
-  },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=482633580",
-    name : "茜さす (TVサイズ)",
-    artist:"Aimer",
-  },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=22782025",
-    name : "美しきもの",
-    artist:"Sound Horizon",
-  },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=1857952675",
-    name : "僕が死のうと思ったのは",
-    artist:"咻咻满",
-  },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=2009658834.mp3",
-    name : "骑在银龙的背上",
-    artist:"咻咻满",
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/Taylor%20Swift%20-%20Style.flac?sign=90AuWbv0ZEQ435CuuDrccdfwtHZZFsDYfmw7sIkdrXc=:0",
+    name : "Style",
+    artist:"Taylor Swift",
   },
   {  
     src : "https://freetyst.nf.migu.cn/public%2Fproduct5th%2Fproduct35%2F2019%2F09%2F2521%2F2018%E5%B9%B406%E6%9C%8830%E6%97%A521%E7%82%B900%E5%88%86%E5%86%85%E5%AE%B9%E5%87%86%E5%85%A5%E7%88%B1%E7%A8%BB%E8%8D%891%E9%A6%96%2F%E5%85%A8%E6%9B%B2%E8%AF%95%E5%90%AC%2FMp3_64_22_16%2F63273402355.mp3?Key=d6c1152c2db27951&Tim=1669971541230&channelid=01&msisdn=06a8ff43d52e4251b8f91c845c03d4b3",
     name : "叹云兮",
     artist:"鞠婧祎",
   },
+  {
+    src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/%E4%B8%AD%E5%B2%9B%E7%BE%8E%E9%9B%AA%20-%20%E9%8A%80%E3%81%AE%E9%BE%8D%E3%81%AE%E8%83%8C%E3%81%AB%E4%B9%97%E3%81%A3%E3%81%A6%20(%E9%AA%91%E5%9C%A8%E9%93%B6%E9%BE%99%E7%9A%84%E8%83%8C%E4%B8%8A).flac?sign=YwApO7y_8DE5OICrvzBfeiV2hl87h9gIsf6p3I0AMuw=:0",
+    name : "骑在银龙的背上",
+    artist:"中岛美雪",
+    },
+    {
+      src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/%E7%8E%8B%E8%AF%97%E5%AE%89%20-%20Home.flac?sign=vcU2stQq1KYry9-ny_Zg3UU1BF-yTZdiVjPJZXmlcCg=:0",
+      name : "Home",
+      artist:"王诗安",
+      },  
+  {
+  src:"http://music.163.com/song/media/outer/url?id=2414984",
+  name : "Near or Far",
+  artist:"Carissa Rae",
+  },
+  {
+    src:"http://music.163.com/song/media/outer/url?id=412911436", 
+    name : "画",
+    artist:"邓紫棋", 
+  },
+  {
+  src:"https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E6%AD%8C%E6%9B%B2/%E5%9D%82%E6%9C%AC%E9%BE%99%E4%B8%80%20-%20Aqua.flac?sign=wHgmqMctOeKZh4NrC0b-kjuDzLPe1wNpcXWdFH4i84g=:0",
+  name : "Aqua",
+  artist:"坂本龙一", 
+  },
+  {
+    src:"http://music.163.com/song/media/outer/url?id=2001320",
+    name : "Valder Fields",
+    artist:"Tamas Wells", 
+  },
+
   {
     src:"http://music.163.com/song/media/outer/url?id=28188427", 
     name : "棠梨煎雪",
@@ -146,45 +168,16 @@ let allMusic =[
     artist:"周深", 
   },
   {
-    src:"http://music.163.com/song/media/outer/url?id=1338695683",
-    name : "起风了",
-    artist:"吴青峰",
-  },
-  {
     src:"http://music.163.com/song/media/outer/url?id=22707003", 
     name : "天空中闪烁着光",
     artist:"铃汐", 
-  },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=412911436", 
-    name : "画",
-    artist:"邓紫棋", 
-  },
-  {
-    src:"http://music.163.com/song/media/outer/url?id=446944042", 
-    name : "霜雪千年",
-    artist:"排骨教主", 
-  },
-  {
-    src:"music/晴天",
-    name : "晴天",
-    artist:"周杰伦", 
-  },
-  {
-    src:"music/有彩虹",
-    name : "有彩虹",
-    artist:"빈센트 블루", 
   },
   {
     src:"music/大人",
     name : "大人",
     artist:"Sondia", 
   },
-  {
-    src:"music/Hope",
-    name : "Hope",
-    artist:"安室奈美恵",
-  },
+
 ];
 
 //events object
