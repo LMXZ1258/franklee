@@ -1,5 +1,12 @@
+@font-face{
+    font-family: "lmxz";
+    src: url("https://cloud.lmxz.repl.co/d/%E8%87%AA%E7%94%A8/%E5%A4%96%E9%93%BE/YeZiGongChangXiaoZhongShanXingKai-2.ttf?sign=d4fEXdoWgnrR3gYj-NSWQ3WJXoO0Hj8HhlYH83-Ww7A=:0")
+}
+a,p{
+    font-family: "lmxz";
+}
 :root{
-    --orange:#e67e22;
+    --orange:#000000;
     --black:#111;
     --header_title_mini:#eee;
     --header_bg:#fff;
@@ -30,6 +37,7 @@ section{
     padding:.9rem 3rem;
     cursor: pointer;
     font-size: 1.7rem;
+    font-family: "lmxz";
 }
 
 .btn:hover{
@@ -61,6 +69,7 @@ section{
     font-size: 4rem;
     color:var(--black);
     text-transform: uppercase;
+    font-family: "lmxz";
 }
 
 .banner .content p{
@@ -68,6 +77,7 @@ section{
     color:var(--light-color);
     padding:1rem 0;
     line-height: 1.5;
+    font-family: "lmxz";
 }
 
 .container{
@@ -97,19 +107,21 @@ section{
     padding-top: 2rem;
     font-size: 1.5rem;
     color:var(--orange);
+    font-family: "lmxz";
 }
 
 .container .posts-container .post .title{
     padding-top: 1.5rem;
     font-size: 2.5rem;
     color:var(--black);
+    font-family: "lmxz";
 }
 
 .container .posts-container .post .text{
     color:var(--light-color);
     font-size: 2rem;
     line-height: 1.5;
-    font-family:STKaiti,"Microsoft YaHei";
+    font-family:"lmxz";
     padding:1rem 0;
 }
 
@@ -131,6 +143,7 @@ section{
 
 .container .posts-container .links a{
     font-size: 1.5rem;
+    font-family: "lmxz";
     color:var(--light-color);
 }
 
@@ -158,6 +171,7 @@ section{
 .container .sidebar .box .title{
     padding:1.5rem;
     font-size: 2rem;
+    font-family: "lmxz";
     color:#fff;
     background:var(--black);
     text-transform: capitalize;
@@ -178,7 +192,8 @@ section{
 
 .container .sidebar .box .about h3{
     color:var(--orange);
-    font-size: 2rem;
+    font-size: 3rem;
+    font-family: "lmxz";
 }
 
 .container .sidebar .box .about p{
@@ -199,6 +214,7 @@ section{
     border-radius: 50%;
     background:var(--black);
     color:#fff;
+    
     font-size: 1.7rem;
     margin:0 .1rem;
 }
@@ -215,6 +231,7 @@ section{
     padding:.4rem 0;
     font-size: 1.5rem;
     color:var(--black);
+    font-family: "lmxz";
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -247,12 +264,14 @@ section{
 .container .sidebar .box .p-post a h3{
     color:var(--black);
     font-size: 2rem;
+    font-family: "lmxz";
     padding-bottom: 1rem;
 }
 
 .container .sidebar .box .p-post a span{
     color:var(--light-color);
     font-size: 1.5rem;
+    font-family: "lmxz";
 }
 
 .container .sidebar .box .p-post a span i{
@@ -271,6 +290,7 @@ section{
     display: inline-block;
     padding:1rem 1.5rem;
     font-size: 1.5rem;
+    font-family: "lmxz";
     color:var(--black);
     border-radius: .5rem;
     border:var(--border);
@@ -303,6 +323,8 @@ section{
     text-align: center;
     padding-bottom: 1.5rem;
     font-size: 3rem;
+    font-family: "lmxz";
+
     text-transform: capitalize;
 }
 
@@ -321,6 +343,7 @@ section{
     border-radius: .5rem;
     color:var(--black);
     font-size: 1.7rem;
+    font-family: "lmxz";
 }
 
 .contact form .inputBox input{
@@ -338,6 +361,7 @@ section{
     font-size: 2rem;
     color:var(--black);
     padding: 1rem 0;
+    font-family: "lmxz";
 }
 
 .footer .credit span{
@@ -354,6 +378,7 @@ section{
     width:4.5rem;
     border-radius: 50%;
     font-size: 1.7rem;
+    
     background:var(--black);
     color:#fff;
     margin:0 .1rem;
