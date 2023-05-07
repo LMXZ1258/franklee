@@ -5,6 +5,7 @@
 a,p{
     font-family: "lmxz";
 }
+
 :root{
     --orange:#000000;
     --black:#111;
@@ -64,20 +65,24 @@ section{
     padding:3rem;
     max-width: 50rem;
 }
-
+.music_box{
+    font-size: 1.5em;
+}
 .banner .content h3{
     font-size: 4rem;
     color:var(--black);
-    text-transform: uppercase;
     font-family: "lmxz";
+    text-transform: uppercase;
+
 }
 
 .banner .content p{
-    font-size: 1.7rem;
+    font-size: 2rem;
     color:var(--light-color);
     padding:1rem 0;
     line-height: 1.5;
     font-family: "lmxz";
+    font-weight: 200;
 }
 
 .container{
@@ -85,6 +90,9 @@ section{
     grid-template-columns: 2.5fr 1fr;
     gap:1.5rem;
     background:#eee;
+}
+#clannad p{
+    font-size: 2em;
 }
 
 .container .posts-container .post{
@@ -97,7 +105,7 @@ section{
 }
 
 .container .posts-container .post .image{
-    height: 40rem;
+    height: 45rem;
     width:100%;
     border-radius: .5rem;
     object-fit: cover;
@@ -107,22 +115,26 @@ section{
     padding-top: 2rem;
     font-size: 1.5rem;
     color:var(--orange);
-    font-family: "lmxz";
+
+    font-weight: 500;
 }
 
 .container .posts-container .post .title{
     padding-top: 1.5rem;
-    font-size: 2.5rem;
+    font-size: 3.2rem;
     color:var(--black);
     font-family: "lmxz";
+    font-weight: 700;
+    padding-bottom: 20px;
 }
 
 .container .posts-container .post .text{
     color:var(--light-color);
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 1.5;
     font-family:"lmxz";
     padding:1rem 0;
+    font-weight: 300;
 }
 
 .container .posts-container .links{
@@ -145,6 +157,7 @@ section{
     font-size: 1.5rem;
     font-family: "lmxz";
     color:var(--light-color);
+    font-weight: 100;
 }
 
 .container .posts-container .links a i{
@@ -175,6 +188,7 @@ section{
     color:#fff;
     background:var(--black);
     text-transform: capitalize;
+    font-weight: 100;
 }
 
 .container .sidebar .box .about{
@@ -194,11 +208,12 @@ section{
     color:var(--orange);
     font-size: 3rem;
     font-family: "lmxz";
+    font-weight: 100;
 }
 
 .container .sidebar .box .about p{
     color:var(--light-color);
-    font-size: 1.5rem;
+    font-size: 2rem;
     line-height: 1.5;
     padding:1rem;
 }
@@ -235,6 +250,7 @@ section{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-weight: 100;
 }
 
 .container .sidebar .box .category a span{
@@ -266,16 +282,19 @@ section{
     font-size: 2rem;
     font-family: "lmxz";
     padding-bottom: 1rem;
+    
 }
 
 .container .sidebar .box .p-post a span{
     color:var(--light-color);
     font-size: 1.5rem;
     font-family: "lmxz";
+    font-weight: 100;
 }
 
 .container .sidebar .box .p-post a span i{
     padding-right: .2rem;
+    font-weight: 100;
 }
 
 .container .sidebar .box .p-post a:hover h3{
@@ -289,7 +308,8 @@ section{
 .container .sidebar .box .tags a{
     display: inline-block;
     padding:1rem 1.5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    font-weight: 100;
     font-family: "lmxz";
     color:var(--black);
     border-radius: .5rem;
@@ -324,7 +344,7 @@ section{
     padding-bottom: 1.5rem;
     font-size: 3rem;
     font-family: "lmxz";
-
+    font-weight: 100;
     text-transform: capitalize;
 }
 
@@ -344,6 +364,7 @@ section{
     color:var(--black);
     font-size: 1.7rem;
     font-family: "lmxz";
+    font-weight: 100;
 }
 
 .contact form .inputBox input{
@@ -362,6 +383,7 @@ section{
     color:var(--black);
     padding: 1rem 0;
     font-family: "lmxz";
+    font-weight: 100;
 }
 
 .footer .credit span{
@@ -390,7 +412,7 @@ section{
 }
 
 .clannad{
-    width:800px;
+    width:900px;
     height:520px;
     flex-shrink: 1;
 }
@@ -494,10 +516,25 @@ section{
     #clannad{
         text-align: center;
     }
+    .container .posts-container .post .text{
+        color:var(--light-color);
+        font-size: 2rem;
+        line-height: 1.5;
+        font-family:"lmxz";
+        padding:1rem 0;
+        font-weight: 100;
+    }
+    .container .posts-container .post .title{
+        padding-top: 1.5rem;
+        font-size: 2.5rem;
+        color:var(--black);
+        font-family: "lmxz";
+        font-weight: 500;
+    }
 }
 
 @media (max-width:500px){
-
+  
     .clannad{
         height: 155px;
         width: 280px;
@@ -505,5 +542,20 @@ section{
     }
     #clannad{
         text-align: center;
+    }
+    .container .posts-container .post .text{
+        color:var(--light-color);
+        font-size: 2rem;
+        line-height: 1.5;
+        font-family:"lmxz";
+        padding:1rem 0;
+        font-weight: 100;
+    }
+    .container .posts-container .post .title{
+        padding-top: 1.5rem;
+        font-size: 2.5rem;
+        color:var(--black);
+        font-family: "lmxz";
+        font-weight: 500;
     }
 }
